@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: #D3A373;
+    width: 98.9em;
+    height: 5em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0em;
+    margin-right: 3em;
+
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+h2, h1 {
+    color: #5F6C37;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.t {
+    margin-top: 2em;
+    font-size: 30px;
+}
+
+.t2 {
+    font-size: 25px;
+    margin-top: -23px;
+}
+
+.p1 {
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 22em;
+    height: 1em;
+    margin-left: 22em;
+    color: #5F6C37;
+}
+
+.img_arv {
+    display: flex;
+    margin-left: 66em;
+    margin-top: -3;
+    height: 6em;
+    width: 6em;
+}
+
+.arrow_g {
+    height: 32px;
+    width: 32px;
+    margin-top: 2em;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.contc {
+    display: flex;
+    background-color: #FFEDDB;
+    height: 30em;
+
+}
+
+.titlec {
+    display: flex;
+    justify-content: left;
+    margin-left: 3em;
+    color: #6E352C;
+    font-weight: 600;
+    width: 0em;
+}
+
+.texts {
+    margin-top: 3em;
+}
+
+.paragc {
+    font-size: 25px;
+    display: flex;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 0em 10em 0 3em;
+}
+
+.paragc2 {
+    font-size: 25px;
+    display: flex;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 0em 10em 0 3em;
+}
+
+.conth {
+    display: flex;
+    justify-self: center;
+    background-color: #46462A;
+    background-size: 2em 2em 2em 2em;
+}
+
+.hands {
+    margin-top: 4em;
+    margin-right: 2em;
+    width: 33em;
+    height: 22em;
+}
+
+.container_amb {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.img_amb {
+    width: 36em;
+    height: 18em;
+    margin-top: -18em;
+}
+
+.tlt_amb {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #6E352C;
+    font-weight: 600;
+    width: 16em;
+    height: 3em;
+    margin-left: 47em;
+}
+
+.parag_amb {
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 0em 9em 2em 26em;
+}
+
+.img_cont{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cont_ex {
+    display: flex;
+    margin-top: 5em;
+}
+
+.tlt_ex {
+    display: flex;
+    justify-content: center;
+    color: #6E352C;
+    font-weight: 600;
+}
+
+.tlt_wt {
+    display: flex;
+    justify-content: left;
+    color: #F49A44;
+    font-weight: 600;
+    margin-left: 1.2em;
+    text-transform: capitalize;
+}
+
+.cont_ag {
+    border: 2px solid #F49A44;
+    border-radius: 10px;
+    width: 46em;
+    height: 11em;
+}
+
+.box_comp {
+    display: flex;
+    margin: 2em 2em 2em 2em;
+}
+
+.parag_wt { 
+    width: 30em;
+    margin-top: 0;
+    margin-left: 2em;
+    width: 41em
+}
+
+.cont_img {
+    display: flex;
+    justify-content: center;
+}
+
+.water {
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: -2.9em;
+    margin-right: 1em;
+}
+
+.cont_agri {
+    border: 2px solid #F49A44;
+    border-radius: 10px;
+    width: 46em;
+    height: 11em;
+    margin-left: 2em;
+}
+
+.agri_tlt {
+    display: flex;
+    justify-content: left;
+    color: #F49A44;
+    font-weight: 600;
+    margin-left: 1.2em;
+    text-transform: capitalize;
+}
+
+.agri_img {
+    display: flex;
+    justify-content: center;
+}
+
+.agri {
+    height: 1.5em;
+    width: 2em;
+    margin-top: -2.9em;
+    margin-right: 7em;
+}
+
+.parag_agri {
+    width: 30em;
+    margin-top: -4px;
+    margin-left: 2em;
+    width: 41em;
+}
+
+.cont_ener {
+    border: 2px solid #F49A44;
+    border-radius: 10px;
+    width: 46em;
+    height: 11em;
+    margin-left: 2em;
+}
+
+.ener_tlt {
+    display: flex;
+    justify-content: left;
+    color: #F49A44;
+    font-weight: 600;
+    margin-left: 1.2em;
+    text-transform: capitalize;
+}
+
+.ener_img {
+    display: flex;
+    justify-content: center;
+}
+
+.energy {
+    height: 1.5em;
+    width: 2em;
+    margin-top: -2.9em;
+    margin-right: 11em;
+}
+
+.parag_ener {
+    width: 30em;
+    margin-top: -6px;
+    margin-left: 2em;
+    width: 41em;
+}
+
+.box_comp2 {
+    display: flex;
+    margin: 2em 0em 2em 0em;
+}
+
+.cont_fert {
+    border: 2px solid #F49A44;
+    border-radius: 10px;
+    width: 46em;
+    height: 11em;
+    margin-left: 2em;
+}
+
+.fert_tlt {
+    display: flex;
+    justify-content: left;
+    color: #F49A44;
+    font-weight: 600;
+    margin-left: 1.2em;
+    text-transform: capitalize;
+}
+
+.fert_img {
+    display: flex;
+    justify-content: center;
+}
+
+.fertliz {
+    height: 1.5em;
+    width: 2em;
+    margin-top: -2.9em;
+    margin-right: 11em;
+}
+
+.parag_fert {
+    width: 30em;
+    margin-top: -4px;
+    margin-left: 2em;
+    width: 41em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #46462A;
+    color: #F49A44;
+}
+
+.tlt_n {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1.3em;
+}
+
+.tlt_rm {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+.rm {
+    margin-left: 2em;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+.rod {
+    display: flex;
+    justify-content: end;
+    margin-top: 4em;
+    width: 15em;
+    margin-left: 50em;
+}
+
+@media (max-width: 900px) {
+    .header {
+        width: 56.5em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+   }
+
+   .list {
+    margin-right: 0em;
+   }
+
+   .p1 {
+    margin-left: 10em;
+   }
+
+   .arrow_g {
+    margin-left: 5em;
+   }
+
+   .paragc, .paragc2 {
+        font-size: 14px;
+        margin: 0em 2em 0em 5em;
+   }
+
+   .hands {
+    width: 22em;
+    height: 16em;
+   }
+
+   .contc {
+    height: 24em;
+   }
+
+   .img_amb {
+    width: 30em;
+    height: 14em;
+   }
+
+   .parag_amb {
+    font-size: 12px;
+    margin: 3em 2em 5em 35em;
+   }
+
+   .tlt_amb {
+    font-size: 20px;
+    width: 16em;
+    height: 3em;
+    margin-left: 28em;
+   }
+
+   .tlt_ex {
+    font-size: 20px;
+   }
+
+   .cont_ex {
+    justify-content: center;
+   }
+
+   .box_comp, .box_comp2 {
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .cont_ag {
+    margin-left: 2em;
+    margin-bottom: 1em;
+   }
+
+   .cont_agri {
+    margin-bottom: -1em;
+   }
+
+   .cont_ener {
+    margin-bottom: 1em;
+   }
+
+   .tlt_wt,.agri_tlt, .ener_tlt, .fert_tlt {
+    font-size: 20px;
+    margin-left: 1.4em;
+   }
+
+   .parag_wt, .parag_agri, .parag_amb, .parag_ener, .parag_fert {
+    font-size: 14px;
+   }
+
+   .cont_ag, .cont_agri,.cont_ener, .cont_fert {
+    width: 39em;
+    height: 9em;
+   }
+
+   .water {
+    margin-top: -2.6em;
+   }
+
+   .agri {
+    margin-right: 5em;
+    margin-top: -2.6em;
+   }
+
+   .energy {
+    margin-right: 9em;
+    margin-top: -2.6em;
+   }
+
+   .fertliz {
+    margin-right: 9em;
+   margin-top: -2.6em;
+   }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+
+   .img_arv {
+    margin-left: 48em;
+   }
+}
+
+

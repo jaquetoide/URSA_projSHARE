@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: #D3A373;
+    width: 98.8em;
+    height: 5em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0em;
+    margin-right: 3em;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+h1 {
+    color: #5F6C37;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 2em;
+    font-size: 30px;
+}
+
+p {
+    color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 25px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 24em;
+    height: 31em;
+}
+
+label {
+    color: #5F6C37;
+}
+
+legend {
+    color: #CE5230;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #5F6C37;
+    color: #F49A44;
+    width: 4em;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.pos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #46462A;
+    color: #F49A44;
+    margin-top: 5em;
+}
+
+.tlt_n {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1.3em;
+    text-transform: uppercase;
+}
+
+.tlt_rm {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+.rm {
+    margin-left: 2em;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+.rod {
+    display: flex;
+    justify-content: end;
+    margin-top: 4em;
+    width: 15em;
+    margin-left: 50em;
+}
+
+@media (max-width: 900px) {
+    .header {
+        width: 56.5em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+   }
+
+   .list {
+    margin-right: 0em;
+   }
+
+   h1 {
+    font-size: 20px;
+}
+
+    p {
+     font-size: 14px;
+    }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+}

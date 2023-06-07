@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header class="header">
+        <div class="cont_log">
+            <img class="logo" src="../../assets/images/share_bk.png"> 
+        </div>
+        
+        <nav class="nav">
+            <div class="list">
+                <a href="../index.html"> Agricultura Sustentável </a>
+                <a href="../ias/ia.html"> IAs Generativas </a>
+                <a href="../modelos/modelos.html"> Modelos de Cultivos </a>
+                <a href="../solucao/solu.html"> Solução </a>
+                <a> Formulário </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section> 
+            <div class="texts"> 
+                <h1> FORMULÁRIO </h1>
+                <p> Preencha o formulário e receba dicas e novidades incríveis sobre agricultura e tecnologia! </p>
+            </div>
+            
+        </section>
+
+        <section>
+            <form name="form_agri" action="form.html" method="get">
+                <fieldset>
+                    <legend> Dados </legend>
+                    <label for="idNome"> Nome: </label>
+                    <input id="idNome" type="text" name="nome"> 
+                    <label for="idSome"> Sobrenome: </label>
+                    <input id="idSome" type="text" name="nome">
+                    <label for="idData"> Data de nascimento: </label>
+                    <input id="idData" type="date" name="nasc">
+                    <label for="idEmail"> Email: </label>
+                    <input id="idEmail" type="email" name="em">
+                    <label for="idDDD"> DDD: </label>
+                    <input id="idDDD" type="number" name="num" min="1" max="100">
+                    <label for="idTel"> Telofone: </label>
+                    <input id="idTel" type="tel" name="telo">
+                    <label for="idCidade"> Cidade: </label>
+                    <input id="idCidade" type="text" name="cid"> 
+                    <label for="idEstado"> Estado: </label>
+                    <input id="idEstado" type="text" name="est"> 
+                    <label for="idPais"> País: </label>
+                    <input id="idPais" type="text" name="pais"> 
+                    <label for="idOp"> Você trabalha com agricultura? </label>
+                    <select id="idOp" name="opcao">
+                        <option value="S"> Sim </option>
+                        <option value="N"> Não </option>
+                    </select>
+
+                    <div class="pos"> 
+                        <input class="btn" type="submit" value="enviar"> 
+                        <input class="btn" type="reset" value="limpar">
+                    </div>
+                </fieldset>
+              
+
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="names">
+            <h1 class="tlt_n"> Integrantes: </h1>
+            <ul>
+                <li> André Testai Muchao </li>
+                <li> Caio Davi Gomes Munhoz </li>
+                <li> Florbela Freitas Oliveira </li>
+                <li> Jaquelline Aparecida Candido</li>
+            </ul>
+        </div>
+
+        <div class="rm">
+            <h1 class="tlt_rm"> RMs: </h1>
+            <ul>
+                <li> 99637 </li>
+                <li> 97970 </li>
+                <li> 99475 </li>
+                <li> 99553 </li>
+            </ul>
+        </div>
+
+        <div class="i">
+            <img class="rod" src="../../assets/images/share_bk.png">
+        </div>
+    </footer>
+</body>
+</html>
