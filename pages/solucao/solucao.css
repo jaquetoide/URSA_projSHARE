@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: #D3A373;
+    width: 98.9em;
+    height: 5em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0em;
+    margin-right: 3em;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.tlt-solu {
+    color: #F49A44;
+    padding-top: 8px;
+    padding-left: 37px;
+}
+
+.solu {
+    background-color: #5F6C37;
+    width: 53em;
+    height: 3em;
+    margin-top: 5em;
+}
+
+.solu_img {
+    display: flex;
+    justify-content: end;
+}
+
+.solution {
+    margin: -5em 12em 0em 0em;
+}
+
+.parag {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.parag_solu {
+    width: 43em;
+    font-size: 25px;
+}
+
+.sorriso {
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+    width: 95em;
+    height: 58em;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #46462A;
+    color: #F49A44;
+}
+
+.tlt_n {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1.3em;
+    text-transform: uppercase;
+}
+
+.tlt_rm {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+.rm {
+    margin-left: 2em;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+.rod {
+    display: flex;
+    justify-content: end;
+    margin-top: 4em;
+    width: 15em;
+    margin-left: 50em;
+}
+
+@media (max-width: 900px) {
+    .header {
+        width: 56.5em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+   }
+
+   .solu {
+    width: 30em;
+    height: 2em;
+    margin-top: 3em;
+}
+
+.tlt-solu {
+    padding-top: 5px;
+    padding-left: 36px;
+    font-size: 20px;
+}
+
+.solution {
+    width: 15em;
+    margin: -3em 5em 0em 0em;
+}
+
+.parag {
+    margin-top: 1em;
+}
+
+.parag_solu {
+    width: 50em;
+    font-size: 14px;
+}
+
+.sorriso {
+    width: 51em;
+    height: 37em;
+}
+
+   .list {
+    margin-right: 0em;
+   }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+}
