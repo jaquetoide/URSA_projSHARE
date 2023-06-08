@@ -187,3 +187,65 @@ li {
     }
     
 }
+
+@media (max-width: 900px) {
+    .header {
+        width: 56.5em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+   }
+
+   .solu {
+    width: 30em;
+    height: 2em;
+    margin-top: 3em;
+    }
+
+    .tlt-solu {
+        padding-top: 5px;
+        padding-left: 36px;
+        font-size: 20px;
+    }
+
+    .solution {
+        width: 15em;
+        margin: -3em 5em 0em 0em;
+    }
+
+    .parag {
+        margin-top: 1em;
+    }
+
+    .parag_solu {
+        width: 50em;
+        font-size: 14px;
+    }
+
+    .sorriso {
+        width: 51em;
+        height: 37em;
+    }
+
+   .list {
+    margin-right: 0em;
+   }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+}
