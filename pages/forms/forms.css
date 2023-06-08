@@ -144,45 +144,6 @@ li {
     margin-left: 50em;
 }
 
-@media (max-width: 900px) {
-    .header {
-        width: 56.5em;
-    }
-
-    a {
-        font-size: 14px;
-    }
-    
-   .t,.t2 {
-    margin-left: 2em;
-   }
-
-   .list {
-    margin-right: 0em;
-   }
-
-   h1 {
-    font-size: 20px;
-    }
-
-    p {
-     font-size: 14px;
-    }
-
-   .tlt_n, .tlt_rm {
-    margin-left: 0.9em;
-    font-size: 20px;
-   }
-
-   li{
-    font-size: 11px;
-   }
-
-   .rod {
-    margin-left: 20em;
-   }
-}
-
 
 @media (max-width:500px) {
     .header {
