@@ -163,7 +163,7 @@ li {
 
    h1 {
     font-size: 20px;
-}
+    }
 
     p {
      font-size: 14px;
@@ -181,4 +181,66 @@ li {
    .rod {
     margin-left: 20em;
    }
+}
+
+
+@media (max-width:500px) {
+    .header {
+        width: 30.2em;
+    }
+    
+    a {
+        font-size: 9px;
+        text-align: center;
+        display: flex;
+        font-weight: 700;
+    }
+    
+    .list {
+        margin-top: 0.5em;
+        margin-right: 4em;
+    }
+    
+    .t,.t2 {
+        margin-top: 2em;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    fieldset {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 15em;
+        height: 27em;
+    }
+
+    label {
+        color: #5F6C37;
+        font-size: 12px;
+    }
+
+    footer {
+        width: 30.2em;
+    }
+
+    .rod {
+        margin-left: 1em;
+    width: 9em;
+    }
+
+    .tlt_n, .tlt_rm {
+        margin-left: 0.9em;
+        font-size: 19px;
+    }
 }
