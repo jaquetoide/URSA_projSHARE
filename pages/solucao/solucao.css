@@ -186,3 +186,66 @@ li {
     margin-left: 20em;
    }
 }
+
+
+@media (max-width:500px) {
+    .header {
+        width: 30.2em;
+    }
+    
+    a {
+        font-size: 9px;
+        text-align: center;
+        display: flex;
+        font-weight: 700;
+    }
+    
+    .list {
+        margin-top: 0.5em;
+        margin-right: 4em;
+    }
+    
+    .t,.t2 {
+        margin-top: 2em;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .solu {
+        width: 17em;
+        height: 1.9em;
+        margin-top: 3em;
+    }
+    
+    .solution {
+        width: 9em;
+        margin: -2.5em 2em 0em 0em;
+    }
+    
+    .parag_solu {
+        width: 39em;
+        font-size: 11px;
+        margin-left: -4em;
+    }
+    
+    .sorriso {
+        width: 24em;
+        height: 18em;
+    }
+
+    footer {
+        width: 30.2em;
+    }
+
+    .rod {
+        margin-left: 1em;
+        width: 9em;
+    }
+
+    .tlt_n, .tlt_rm {
+        margin-left: 0.9em;
+        font-size: 19px;
+    }
+    
+}
