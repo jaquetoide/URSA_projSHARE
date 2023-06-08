@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: #D3A373;
+    width: 98.8em;
+    height: 5em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0em;
+    margin-right: 3em;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mod_cult {
+    height: 28em;
+}
+
+
+.tlt_mod {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 30px;
+    color: #CE5230;
+}
+
+.tlt_mod2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: -23px;
+    color: #CE5230;
+}
+
+.parag_mod {
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 31em;
+    height: 1em;
+    margin-left: 18em;
+    color: #CE5230;
+}
+
+.plant {
+    display: flex;
+    margin-left: 73em;
+}
+
+.plantinha {
+    margin-top: 1em;
+    margin-left: -2em;
+    height: 6em;
+    width: 6em;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+}
+
+.tlt_ex {
+    display: flex;
+    justify-content: center;
+    color: #6E352C;
+    font-weight: 600;
+    margin-bottom: 4em;
+}
+
+.tlt_agri {
+    display: flex;
+    justify-content: left;
+    margin-left: 3em;
+    color: #5F6C37;
+    font-weight: 600;
+}
+
+.parag_agri {
+    font-size: 25px;
+    display: flex;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 0em 29em 0 3em;
+}
+
+.img {
+    width: 35em;
+    height: 19em;
+    display: flex;
+    margin: -15em 0em 0em 57em;
+    justify-content: center;
+}
+
+.agri_cons {
+    height: 32em;
+    background-color: #FFEDDB;
+}
+
+.cont_ex {
+    padding-top: 2em;
+}
+
+.tlt_org {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #6E352C;
+    font-weight: 600;
+    width: 12em;
+    height: 2em;
+    margin-left: 16em;
+}
+
+.parag_org {
+    display: flex;
+    margin-left: 2em;
+    text-align: end;
+    justify-content: flex-end;
+    height: 13em;
+    width: 40em;
+    padding-top: 1em;
+    color: #fff;
+}
+
+.texts_org {
+    padding-top: 5em;
+    width: 45.9em;
+    height: 24em;
+    margin-left: 53em;
+    background-color: #5F6C37;
+}
+
+.img_o {
+    display: flex;
+    justify-content: start;
+    margin: -26em 0em 0em 6em;
+}
+
+
+.tlt_ex {
+    display: flex;
+    justify-content: center;
+    color: #6E352C;
+    font-weight: 600;
+    margin-bottom: 4em;
+}
+
+.tlt_flo {
+    display: flex;
+    justify-content: left;
+    margin-left: 3em;
+    color: #CE5230;
+    font-weight: 600;
+}
+
+.parag_flor {
+    font-size: 25px;
+    display: flex;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 0em 29em 0 3em;
+}
+
+.flo {
+    width: 35em;
+    height: 19em;
+    display: flex;
+    margin: -15em 0em 0em 57em;
+    justify-content: center;
+}
+
+.agri_cons {
+    height: 32em;
+    background-color: #FFEDDB;
+}
+
+.cont_flor {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+.cont_ex {
+    padding-top: 2em;
+}
+
+.tlt_vert {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #CE5230;
+    font-weight: 600;
+    width: 11em;
+    height: 2em;
+    margin-left: 15em;
+}
+
+.parag_vert {
+    display: flex;
+    margin-left: 0em;
+    text-align: end;
+    justify-content: flex-end;
+    height: 13em;
+    width: 25em;
+    padding-top: 1em;
+    font-size: 25px;
+    color: #1E1E1E;
+}
+
+.texts_vert {
+    padding-top: 5em;
+    width: 45.9em;
+    height: 24em;
+    margin-left: 53em;
+}
+
+.img_vert {
+    display: flex;
+    justify-content: start;
+    margin: -26em 0em 0em 6em;
+}
+
+.vertical {
+    width: 38em;
+    height: 25em;
+    padding-top: 3em;
+}
+
+.cont_vert {
+    background-color: #FFEDDB;
+    height: 34em;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #46462A;
+    color: #F49A44;
+}
+
+.tlt_n {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1.3em;
+    text-transform: uppercase;
+}
+
+.tlt_rm {
+    display: flex;
+    justify-content: center;
+    color: #D3A373;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+.rm {
+    margin-left: 2em;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo {
+    width: 7em;
+    height: 2em;
+}
+
+.rod {
+    display: flex;
+    justify-content: end;
+    margin-top: 4em;
+    width: 15em;
+    margin-left: 50em;
+}
+
+
+@media (max-width: 900px) {
+    .header {
+        width: 56.5em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+    font-size: 20px;
+   }
+
+   .list {
+    margin-right: 0em;
+   }
+
+   .tlt_mod, .tlt_mod2 {
+    font-size: 20px;
+   }
+
+   .parag_mod {
+    font-size: 14px;
+    margin-left: 17em;
+   }
+
+   .plant {
+    margin-left: 43em;
+   }
+
+   .plantinha {
+    margin-top: 1em;
+    margin-left: -2em;
+    height: 3em;
+    width: 3em;
+   }
+
+   .mod_cult {
+    height: 15em;
+   }
+
+   .tlt_ex {
+    font-size: 20px;
+    margin-bottom: 4em;
+   }
+
+   .tlt_agri {
+    font-size: 20px;
+    margin-left: 5em;
+   }
+
+   .texts_org {
+    padding-top: 5em;
+    width: 27.3em;
+    margin-left: 29em;
+   }
+
+   .tlt_org {
+    font-size: 20px;
+    width: 13em;
+    height: 2em;
+    margin-left: 7em;
+   }
+
+   .parag_org {
+    margin-left: 2em;
+    font-size: 14px;
+    height: 13em;
+    width: 26.5em;
+    padding-top: 1em;
+   }
+
+   .img_o {
+    margin: -24em 0 6em 3em;
+   }
+
+   .organic {
+    width: 24em;
+    height: 20em;
+   }
+
+   .tlt_flo {
+    font-size: 20px;
+    margin-left: 4em;
+   }
+
+   .parag_flor {
+    font-size: 14px;
+    margin: 0 29em 0 5.5em;
+   }
+
+   .flo {
+    width: 21em;
+    height: 14em;
+    margin: -10em 0 0 34em;
+   }
+
+   .cont_vert {
+    height: 26em;
+   }
+
+   .texts_vert {
+    padding-top: 5em;
+    width: 46.9em;
+    height: 22em;
+    margin-left: 32em;
+   }
+
+   .tlt_vert {
+    font-size: 20px;
+    width: 12em;
+    height: 2em;
+    margin-left: 2em;
+   }
+
+   .parag_vert {
+    margin-left: -3em;
+    font-size: 14px;
+    height: 13em;
+    width: 23em;
+    padding-top: 0em;
+   }
+
+   .img {
+    width: 24em;
+    height: 14em;
+    margin: -10em 0 0 31em
+   }
+   
+   .parag_agri {
+    font-size: 14px;
+    margin: 0 29em 0 7em;
+   }
+
+   .img_vert {
+    margin: -26em 0 0 6em;
+   }
+
+   .vertical {
+    width: 22em;
+    height: 17em;
+    padding-top: 3em;
+   }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+
+   .img_arv {
+    margin-left: 48em;
+   }
+
+
+}
