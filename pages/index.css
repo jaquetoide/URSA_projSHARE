@@ -542,6 +542,139 @@ li {
     
 }  
 
+@media (max-width: 900px) {
+    .header {
+        width: 54.3em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+   }
+
+   .list {
+    margin-right: 0em;
+   }
+
+   .p1 {
+    margin-left: 10em;
+   }
+
+   .arrow_g {
+    margin-left: 5em;
+   }
+
+   .paragc, .paragc2 {
+        font-size: 14px;
+        margin: 0em 2em 0em 5em;
+   }
+
+   .hands {
+    width: 22em;
+    height: 16em;
+   }
+
+   .contc {
+    height: 24em;
+   }
+
+   .img_amb {
+    width: 30em;
+    height: 14em;
+   }
+
+   .parag_amb {
+    font-size: 12px;
+    margin: 3em 2em 5em 35em;
+   }
+
+   .tlt_amb {
+    font-size: 20px;
+    width: 15em;
+    height: 3em;
+    margin-left: 28em;
+   }
+
+   .tlt_ex {
+    font-size: 20px;
+   }
+
+   .cont_ex {
+    justify-content: center;
+   }
+
+   .box_comp, .box_comp2 {
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .cont_ag {
+    margin-left: 2em;
+    margin-bottom: 1em;
+   }
+
+   .cont_agri {
+    margin-bottom: -1em;
+   }
+
+   .cont_ener {
+    margin-bottom: 1em;
+   }
+
+   .tlt_wt,.agri_tlt, .ener_tlt, .fert_tlt {
+    font-size: 20px;
+    margin-left: 1.4em;
+   }
+
+   .parag_wt, .parag_agri, .parag_amb, .parag_ener, .parag_fert {
+    font-size: 14px;
+   }
+
+   .cont_ag, .cont_agri,.cont_ener, .cont_fert {
+    width: 39em;
+    height: 9em;
+   }
+
+   .water {
+    margin-top: -2.6em;
+   }
+
+   .agri {
+    margin-right: 5em;
+    margin-top: -2.6em;
+   }
+
+   .energy {
+    margin-right: 9em;
+    margin-top: -2.6em;
+   }
+
+   .fertliz {
+    margin-right: 9em;
+   margin-top: -2.6em;
+   }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+
+   .img_arv {
+    margin-left: 48em;
+   }
+}
+
 
 
 
