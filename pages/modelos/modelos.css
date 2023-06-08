@@ -472,3 +472,170 @@ li {
         font-size: 19px;
     }
 }
+
+@media (max-width: 900px) {
+    .header {
+        width: 56.5em;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+   .t,.t2 {
+    margin-left: 2em;
+    font-size: 20px;
+   }
+
+   .list {
+    margin-right: 0em;
+   }
+
+   .tlt_mod, .tlt_mod2 {
+    font-size: 20px;
+   }
+
+   .parag_mod {
+    font-size: 14px;
+    margin-left: 17em;
+   }
+
+   .plant {
+    margin-left: 43em;
+   }
+
+   .plantinha {
+    margin-top: 1em;
+    margin-left: -2em;
+    height: 3em;
+    width: 3em;
+   }
+
+   .mod_cult {
+    height: 15em;
+   }
+
+   .tlt_ex {
+    font-size: 20px;
+    margin-bottom: 4em;
+   }
+
+   .tlt_agri {
+    font-size: 20px;
+    margin-left: 5em;
+   }
+
+   .texts_org {
+    padding-top: 5em;
+    width: 27.3em;
+    margin-left: 29em;
+   }
+
+   .tlt_org {
+    font-size: 20px;
+    width: 13em;
+    height: 2em;
+    margin-left: 7em;
+   }
+
+   .parag_org {
+    margin-left: 2em;
+    font-size: 14px;
+    height: 13em;
+    width: 26.5em;
+    padding-top: 1em;
+   }
+
+   .img_o {
+    margin: -24em 0 6em 3em;
+   }
+
+   .organic {
+    width: 24em;
+    height: 20em;
+   }
+
+   .tlt_flo {
+    font-size: 20px;
+    margin-left: 4em;
+   }
+
+   .parag_flor {
+    font-size: 14px;
+    margin: 0 29em 0 5.5em;
+   }
+
+   .flo {
+    width: 21em;
+    height: 14em;
+    margin: -10em 0 0 34em;
+   }
+
+   .cont_vert {
+    height: 26em;
+   }
+
+   .texts_vert {
+    padding-top: 5em;
+    width: 46.9em;
+    height: 22em;
+    margin-left: 32em;
+   }
+
+   .tlt_vert {
+    font-size: 20px;
+    width: 12em;
+    height: 2em;
+    margin-left: 2em;
+   }
+
+   .parag_vert {
+    margin-left: -3em;
+    font-size: 14px;
+    height: 13em;
+    width: 23em;
+    padding-top: 0em;
+   }
+
+   .img {
+    width: 24em;
+    height: 14em;
+    margin: -10em 0 0 31em
+   }
+   
+   .parag_agri {
+    font-size: 14px;
+    margin: 0 29em 0 7em;
+   }
+
+   .img_vert {
+    margin: -26em 0 0 6em;
+   }
+
+   .vertical {
+    width: 22em;
+    height: 17em;
+    padding-top: 3em;
+   }
+
+   .tlt_n, .tlt_rm {
+    margin-left: 0.9em;
+    font-size: 20px;
+   }
+
+   li{
+    font-size: 11px;
+   }
+
+   .rod {
+    margin-left: 20em;
+   }
+
+   .img_arv {
+    margin-left: 48em;
+   }
+
+   .header {
+    width: 30.2em;
+    }
+}
